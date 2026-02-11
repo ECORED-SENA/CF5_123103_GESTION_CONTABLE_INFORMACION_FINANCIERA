@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Fundamentos de matemáticas financieras',
+    Description:
+      'En este componente formativo se abordan temas relacionados con la fundamentación y aplicación de las matemáticas financieras en el sector productivo, se analiza la clasificación de las tasas de interés, el valor del dinero en el tiempo, equivalencia de tasas, tablas de amortización y alternativas de inversión como lo son el Valor Presente Neto (VPN) y Tasa Interna de Retorno (TIR), así mismo, la Norma Internacional de Información Financiera (NIIF) 13 – Medición del Valor Razonable, teniendo en cuenta la importancia de su análisis y aplicación en el registro de los hechos económicos bajo los estándares internacionales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +36,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Matemáticas financieras',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'concepto.',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Tasas de interés.',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Tasa nominal, periódica y efectiva.',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Tablas de amortización.',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Alternativas de inversión.',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,13 +70,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Norma Internacional de Información Financiera (NIIF)',
         desarrolloContenidos: true,
       },
     ],
@@ -86,7 +105,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/123101_CF05_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -102,22 +121,140 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Tema 1',
+      referencia:
+        'Meza, J. J. (2017). Matemáticas financieras aplicadas (5.a ed.). Ecoe Ediciones.',
+      tipo: 'Capítulo 1-2-3-4 y 7',
+      link:
+        'https://books.google.hn/books?id=rqIwDgAAQBAJ&printsec=frontcover#v=onepage&q&f=false',
+    },
+    {
+      tema: 'Tema 2',
+      referencia:
+        'Tello, L. B. (2019). Herramientas financieras y valoración de activos y pasivos financieros bajo NIIF. Santiago de Cali: Editorial Universidad Icesi. ',
+      tipo: 'Capítulo 1-2-3-4-7 y 8',
+      link:
+        'https://repository.icesi.edu.co/server/api/core/bitstreams/33aa3514-d6e6-4fd5-a523-adf3e53b725b/content',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Interés',
+      significado:
+        'Es el valor que se cancela por utilizar un capital durante un periodo determinado, teniendo en cuenta las condiciones acordadas entre deudor y acreedor.',
+    },
+    {
+      termino: 'Interés compuesto',
+      significado:
+        'Es aquel que al final del período capitaliza los intereses causados en el período inmediatamente anterior.',
+    },
+    {
+      termino: 'Interés simple',
+      significado:
+        'Se llama interés simple aquel en el cual los intereses devengados en un período no ganan intereses en los períodos siguientes, independientemente de que se paguen o no. Únicamente sobre el capital principal se liquidan los intereses sin tener en cuenta los intereses precedentes causados.',
+    },
+    {
+      termino: 'Inversión',
+      significado:
+        'Es la asignación de recursos en el presente con el fin de obtener unos beneficios, en el futuro (Vélez, 1998).',
+    },
+    {
+      termino: 'Matemáticas financieras',
+      significado:
+        'Es el campo de las matemáticas que aplica un ente económico para el análisis y valoración de los mercados financieros y el valor del dinero en el tiempo, mediante la aplicación de cálculos aritméticos.',
+    },
+    {
+      termino: 'Tabla de amortización',
+      significado:
+        'Es un cuadro de pagos que refleja la cuota acordada con el pago, que se compone de abono a capital e intereses durante un periodo y tasa determinada.',
+    },
+    {
+      termino: 'Tasa de interés',
+      significado:
+        'Es la proporción dada normalmente en porcentaje, que se usa para determinar el costo del uso del dinero en un tiempo determinado.',
+    },
+    {
+      termino: 'Tasa efectiva',
+      significado:
+        'Se paga o se recibe por un préstamo o un ahorro cuando no se retiran los intereses, se asimila a un interés compuesto. Esta tasa es una medida que permite comparar las tasas de interés nominales anuales bajo diferentes modalidades de pago, ya que generalmente se parte de una tasa efectiva para establecer la tasa nominal que se pagará o recibirá por un préstamo o un ahorro.',
+    },
+    {
+      termino: 'Tasa interna de retorno (TIR)',
+      significado:
+        'Es un indicador de rentabilidad que se utiliza en su mayoría para evaluar proyectos de inversión.',
+    },
+    {
+      termino: 'Tasa nominal',
+      significado:
+        'Es aquella que se paga por un préstamo o una cuenta de ahorros y no se suma al capital, es expresada en términos anuales con una frecuencia de tiempo de pago.',
+    },
+    {
+      termino: 'Valor del dinero en el tiempo',
+      significado:
+        'El dinero es un bien, cuya principal característica es que se puede intercambiar libre y universalmente por otros bienes o servicios.',
+    },
+    {
+      termino: 'Valor Futuro',
+      significado:
+        'Describe el crecimiento de un capital, o inversión, dada una tasa de interés y un tiempo. ',
+    },
+    {
+      termino: 'Valor presente o actual',
+      significado:
+        'Describe los flujos de dinero futuros, que a una tasa de interés de descuento y periodos dados representa valores presentes.',
+    },
+    {
+      termino: 'Valor presente Neto',
+      significado:
+        'Es una cifra monetaria que resulta de comparar el valor presente de los ingresos con el valor presente de los ingresos. El VPN es una alternativa de inversión utilizada frecuentemente para medir el desempeño de la inversión.',
+    },
+    {
+      termino: 'Valor razonable',
+      significado: 'El valor razonable es una medición basada en el mercado.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Consejo Técnico de la Contaduría Pública (CTCP) (s.f). Norma Internacional de Información Financiera 13 Medición del Valor Razonable. ',
+      link:
+        'http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534363802-6328',
+    },
+    {
+      referencia:
+        'Decreto 2420 de diciembre 14 de 2015. Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera.',
       link: '',
+    },
+    {
+      referencia:
+        'García, A. (1998). Evaluación de proyectos de inversión. McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kozikowski, Z. (2007). Matemáticas financieras: el valor del dinero en el tiempo. McGraw-Hill Interamericana. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Meza, J. J. (2017). Matemáticas financieras aplicadas (6.a ed.). Ecoe Ediciones. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Vélez, I. (2003). Decisiones empresariales bajo riesgo e incertidumbre. Grupo Editorial Patria.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vidaurri, H (2017). Matemáticas Financieras. Cengage Learning. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Tello, L. B. (2019). Herramientas financieras y valoración de activos y pasivos financieros bajo NIIF. Editorial Universidad Icesi. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/130247?page=279',
     },
   ],
   creditos: [
@@ -125,14 +262,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermudez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -140,9 +277,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ángela Viviana Páez Perilla ',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -150,19 +293,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Leyson Fabián Castaño Pérez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -170,14 +334,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
