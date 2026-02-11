@@ -4,7 +4,7 @@
       <rect id="Rectángulo_31509" data-name="Rectángulo 31509" width="188.872" height="188.872" fill="#efecec" opacity="0.38"/>
     </clipPath>
   </defs>
-  <path id="Trazado_133123" data-name="Trazado 133123" d="M229.852,227.057c0,46.131-83.031,96.515-128.835,96.515S6,273.188,6,227.057s19.325-77.368,86.965-42.391C133.712,205.736,229.852,180.928,229.852,227.057Z" transform="translate(-6 -143.483)" fill="#fd9827"/>
+  <path id="Trazado_133123" data-name="Trazado 133123" d="M229.852,227.057c0,46.131-83.031,96.515-128.835,96.515S6,273.188,6,227.057s19.325-77.368,86.965-42.391C133.712,205.736,229.852,180.928,229.852,227.057Z" transform="translate(-6 -143.483)" fill="#98d1d1"/>
   <g id="Grupo_62539" data-name="Grupo 62539" transform="translate(16.954 0)">
     <g id="Grupo_62538" data-name="Grupo 62538" transform="translate(93.535 9.833)">
       <g id="Grupo_62373" data-name="Grupo 62373" transform="translate(8.91)">
@@ -2058,7 +2058,7 @@
         <g id="Grupo_62401" data-name="Grupo 62401">
           <g id="Grupo_62386" data-name="Grupo 62386" transform="translate(11.797)">
             <g id="Grupo_62385" data-name="Grupo 62385">
-              <path id="Trazado_132358" data-name="Trazado 132358" d="M884.565,307.122l16.687-40.26c.762-1.837-.194-3.327-2.134-3.327h-3.357a2.148,2.148,0,0,1-2.392-1.933l-.111-1.48a2.151,2.151,0,0,0-2.4-1.933H874.909a5.585,5.585,0,0,0-3.694,1.634l-1.295,1.255a5.579,5.579,0,0,1-3.691,1.634H845.911a5.67,5.67,0,0,0-4.853,3.327l-16.542,41.082Z" transform="translate(-824.516 -258.19)" fill="#8454ee"/>
+              <path id="Trazado_132358" data-name="Trazado 132358" d="M884.565,307.122l16.687-40.26c.762-1.837-.194-3.327-2.134-3.327h-3.357a2.148,2.148,0,0,1-2.392-1.933l-.111-1.48a2.151,2.151,0,0,0-2.4-1.933H874.909a5.585,5.585,0,0,0-3.694,1.634l-1.295,1.255a5.579,5.579,0,0,1-3.691,1.634H845.911a5.67,5.67,0,0,0-4.853,3.327l-16.542,41.082Z" transform="translate(-824.516 -258.19)" fill="#fd9826"/>
             </g>
           </g>
           <g id="Grupo_62389" data-name="Grupo 62389" transform="translate(18.092 7.717)">
@@ -2083,7 +2083,7 @@
               <g id="Grupo_62398" data-name="Grupo 62398">
                 <g id="Grupo_62397" data-name="Grupo 62397">
                   <g id="Grupo_62396" data-name="Grupo 62396">
-                    <path id="Trazado_132363" data-name="Trazado 132363" d="M945.572,324.892l-12.54-37a3.712,3.712,0,0,0-3.488-2.572h-53.3a2.6,2.6,0,0,0-2.381,3.456l11.663,36.131Z" transform="translate(-873.727 -285.322)" fill="#5ab4f9"/>
+                    <path id="Trazado_132363" data-name="Trazado 132363" d="M945.572,324.892l-12.54-37a3.712,3.712,0,0,0-3.488-2.572h-53.3a2.6,2.6,0,0,0-2.381,3.456l11.663,36.131Z" transform="translate(-873.727 -285.322)" fill="#fd9826"/>
                   </g>
                 </g>
               </g>
