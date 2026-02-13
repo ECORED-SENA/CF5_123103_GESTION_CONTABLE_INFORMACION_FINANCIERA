@@ -79,14 +79,12 @@
                   span 4
                 | Si el valor razonable se requiere o permite por otras NIIF, el marco de medición del valor razonable descrito en esta NIIF se aplicará a la medición inicial y posterior.
 
-        .bloque-texto-a.color-secundario.p-4.p-md-5 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-3.mb-4.mb-lg-0.order-lg-2
-              figure
-                img(src="@/assets/curso/tema2/5.svg", data-aos="zoom-in")
-            .col-lg-9.order-lg-1
-              .bloque-texto-a__texto.p-4
-                p.mb-0 El valor razonable es una medida basada en el mercado, para registrar su valor es importante indagar en el mercado si el elemento ha presentado cambios que requieran una actualización conforme con las variaciones presentadas. Algunos activos que deben ser medidos a valor razonable son: instrumentos financieros, propiedades, planta y equipo, activos biológicos e inversiones.
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
+          .bloque-texto-g__img
+            figure
+              img(src="@/assets/curso/tema2/5.svg", alt="" style="max-width: 220px").m-auto
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El valor razonable es una medida basada en el mercado, para registrar su valor es importante indagar en el mercado si el elemento ha presentado cambios que requieran una actualización conforme con las variaciones presentadas. Algunos activos que deben ser medidos a valor razonable son: instrumentos financieros, propiedades, planta y equipo, activos biológicos e inversiones.
     
     p(data-aos="fade-down") <b>Ejemplo:</b> La empresa Supercueros SAS adquiere 1.000 acciones el 11 de noviembre de 2020, a $2.500 cada una. Se cancela comisión por valor de $500.000.
 
@@ -109,19 +107,19 @@
                 table
                   thead
                     tr
-                      th.bg-color-6.text-center  Concepto  
+                      th.ajuste-border-tabla.bg-color-6.text-center  Concepto  
                       th.bg-color-6.text-center  Valor 
 
                   tbody
                     tr.bg-color-white
-                      td Inversión en acciones  
+                      td.ajuste-border-tabla Inversión en acciones  
                       td.text-right $ 2.500.000 
 
                     tr.bg-color-18
-                      td Más costo transacción   
+                      td.ajuste-border-tabla Más costo transacción   
                       td.text-right $ 500.000 
-                    tr.bg-color-18
-                      td.text-bold Total Inversión   
+                    tr
+                      td.ajuste-border-tabla.text-bold Total Inversión   
                       td.text-right $ 3.000.000 
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 12.
@@ -130,28 +128,28 @@
                 table
                   thead
                     tr
-                      th.bg-color-6.text-center  Cuenta  
-                      th.bg-color-6.text-center  Debe 
+                      th.ajuste-border-tabla.bg-color-6.text-center  Cuenta  
+                      th.ajuste-border-tabla.bg-color-6.text-center  Debe 
                       th.bg-color-6.text-center  Haber 
 
                   tbody
                     tr.bg-color-white
-                      td Activos financieros (acciones)  
-                      td.text-right $ 3.000.000
+                      td.ajuste-border-tabla Activos financieros (acciones)  
+                      td.ajuste-border-tabla.text-right $ 3.000.000
                       td
 
                     tr.bg-color-18
-                      td Efectivo  
-                      td.text-right -
+                      td.ajuste-border-tabla Efectivo  
+                      td.ajuste-border-tabla.text-right -
                       td.text-right $ 3.000.000
-                    tr.bg-color-18
-                      td.text-bold Total  
-                      td.text-right $ 3.000.000
+                    tr
+                      td.ajuste-border-tabla.text-bold Total  
+                      td.ajuste-border-tabla.text-right $ 3.000.000
                       td.text-right $ 3.000.000
     
     .row.justify-content-center
       .col-lg-10
-        div.tarjeta.bg-color-8.p-4.mb-5
+        div.tarjeta.bg-color-16-2.p-4.mb-5
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-3.mb-lg-0.order-lg-2.mb-4.mb-lg-0
               figure
@@ -166,21 +164,21 @@
                 table
                   thead
                     tr
-                      th.bg-color-6.text-center  Concepto  
+                      th.ajuste-border-tabla.bg-color-6.text-center  Concepto  
                       th.bg-color-6.text-center  Valor 
 
                   tbody
                     tr.bg-color-white
-                      td Valor razonable 31/12/2020
+                      td.ajuste-border-tabla Valor razonable 31/12/2020
                       td.text-right $ 2.200.000 
 
 
                     tr.bg-color-18
-                      td Valor costo de adquisición 11/11/2020  
+                      td.ajuste-border-tabla Valor costo de adquisición 11/11/2020  
                       td.text-right $ 2.500.000 
 
-                    tr.bg-color-18
-                      td.text-bold Valor pérdida de acciones  
+                    tr
+                      td.ajuste-border-tabla.text-bold Valor pérdida de acciones  
                       td.text-right -$ 300.000 
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 14.
@@ -189,23 +187,23 @@
                 table
                   thead
                     tr
-                      th.bg-color-6.text-center  Cuenta  
-                      th.bg-color-6.text-center  Debe 
+                      th.ajuste-border-tabla.bg-color-6.text-center  Cuenta  
+                      th.ajuste-border-tabla.bg-color-6.text-center  Debe 
                       th.bg-color-6.text-center  Haber 
 
                   tbody
                     tr.bg-color-white
-                      td Gasto por pérdida
-                      td.text-right $ 300.000
+                      td.ajuste-border-tabla Gasto por pérdida
+                      td.ajuste-border-tabla.text-right $ 300.000
                       td
 
                     tr.bg-color-18
-                      td Activos financieros (acciones) 
-                      td.text-right -
+                      td.ajuste-border-tabla Activos financieros (acciones) 
+                      td.ajuste-border-tabla.text-right -
                       td.text-right $ 300.000
-                    tr.bg-color-18
-                      td.text-bold Total  
-                      td.text-right $ 300.000
+                    tr
+                      td.ajuste-border-tabla.text-bold Total  
+                      td.ajuste-border-tabla.text-right $ 300.000
                       td.text-right $ 300.000
     
     .row.justify-content-center
