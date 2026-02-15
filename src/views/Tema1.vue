@@ -12,7 +12,7 @@
         figure
           img.d-none.d-lg-flex(src="@/assets/curso/tema1/1.svg", data-aos="zoom-in")
       .col-lg-11
-        p.mb-0 El objetivo del presente componente es el análisis de la fundamentación y aplicación de las matemáticas financieras; para lo cual se fortalecerán las habilidades y competencias en el manejo y aplicación de tasas de interés, tablas de amortización, herramientas de Excel y criterios del valor razonable. Logrando de esta manera adquirir destrezas en el área contable y financiera para su desempeño en el ámbito empresarial. 
+        p.mb-0 El objetivo del presente componente es el análisis de la fundamentación y aplicación de las matemáticas financieras, para lo cual se fortalecerán las habilidades y competencias en el manejo y aplicación de tasas de interés, tablas de amortización, herramientas de Excel y criterios del valor razonable. Logrando de esta manera adquirir destrezas en el área contable y financiera para su desempeño en el ámbito empresarial. 
     
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Concepto
@@ -31,14 +31,14 @@
             .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/3.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 De acuerdo con la convergencia de Normas Internacionales de Información Financiera, mediante la expedición de la Ley 1314 de 2009, se presentan cambios en la valoración de los instrumentos financieros, donde se tiene en cuenta los criterios de medición de costo amortizado y valor razonable, utilizando el método de interés efectivo.
+              p.mb-0 De acuerdo con la convergencia de Normas Internacionales de Información Financiera, mediante la expedición de la Ley 1314 de 2009, se presentan cambios en la valoración de los instrumentos financieros, donde se tienen en cuenta los criterios de medición de costo amortizado y valor razonable, utilizando el método de interés efectivo.
 
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Tasas de interés
     
-    p.mb-4 Antes de abordar el tipo de tasas de interés, los invito a analizar los conceptos básicos con el fin de avanzar significativamente en las temáticas que le permitan desarrollar esta unidad.
+    p.mb-4 Antes de abordar el tipo de tasas de interés, los invito a analizar los conceptos básicos con el fin de avanzar significativamente en las temáticas que les permitan desarrollar esta unidad.
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -63,7 +63,7 @@
                 img(src="@/assets/curso/tema1/6.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4 Tiempo (n)
-              p Periodo en el cual se lleva a cabo en la operación financiera. 
+              p Periodo en el cual se lleva a cabo la operación financiera. 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -104,7 +104,7 @@
           .col-md
             p <b>Ejemplo 1:</b> Carolina invierte hoy $12.000.000 en una cuenta que paga el 9 % simple anual, ¿qué cantidad podrá retirar dentro de 3 años?
         .bg-color-16-1.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") Para desarrollar el ejercicio, es importante tener en cuenta los datos suministrados; por ello, no olvide analizar la información y observar que se tiene la necesidad de hallar el valor futuro, mediante el interés simple. Recordemos que este no capitaliza como sucede en el interés compuesto.
+          p.mb-0(data-aos="fade-left") Para desarrollar el ejercicio, es importante tener en cuenta los datos suministrados; por ello, no olvide analizar la información y observar que se tiene la necesidad de hallar el valor futuro mediante el interés simple. Recordemos que este no capitaliza como sucede en el interés compuesto.
         p La fórmula que debe usarse es:
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
@@ -114,7 +114,7 @@
             figure
               img(src="@/assets/curso/tema1/12.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés simple, que incluye la expresión matemática VF=VA(1+n*i), un ejemplo numérico con valor actual de $12.000.000, tasa del 9 % anual y un periodo de 3 años, y una línea de tiempo que representa el crecimiento hasta un valor futuro de $15.240.000.")
         .bg-color-16-2.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina con una inversión inicial de $12.000.000 recibirá $15.240.000, dentro de tres años aplicando interés simple.
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina, con una inversión inicial de $12.000.000 recibirá $15.240.000 dentro de tres años aplicando interés simple.
     
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0.d-none.d-md-block
@@ -137,7 +137,7 @@
             figure
               img(src="@/assets/curso/tema1/15.svg", data-aos="zoom-in", alt="Fórmula para calcular el valor actual con interés simple, representada como VA=VF/(1+i*n), acompañada de un ejemplo con un valor futuro de $35.000.000, tasa de interés del 2,5 % y plazo de 10 años, que da como resultado un valor actual de $28.000.000.")
         .bg-color-1-1.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Respuesta: Para obtener un monto de $35.000.000 durante 10 meses a la tasa del 2,5 % de invertir $28.000.000. 
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>Para obtener un monto de $35.000.000 durante 10 meses a la tasa del 2,5 % de invertir $28.000.000. 
   
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -220,11 +220,11 @@
             figure
               img(src="@/assets/curso/tema1/19.svg", data-aos="zoom-in", alt="Fórmula del valor actual bajo interés compuesto representada como VA=VF/(1+i)^n,  aplicada a un valor futuro de $35.000.000 con una tasa del 2,5 % durante 10 años, obteniendo un valor actual de $27.341.944,06.")
         .bg-color-1-2.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  para obtener un monto de $35.000.000 durante 10 meses, a la tasa del 2,5 %, debe invertir $27.341.944,06. 
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> para obtener un monto de $35.000.000 durante 10 meses, a la tasa del 2,5 %, debe invertir $27.341.944,06. 
     
     p.mb-4(data-aos="fade-down") También se puede obtener el Valor Actual (VA), utilizando la fórmula financiera de Excel llamada VA, la cual se presenta a continuación:
 
-    div.tarjeta.bg-color-1-3.p-4.mb-5
+    div.tarjeta.bg-color-1-1.p-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
           .titulo-sexto.color-acento-contenido
@@ -258,7 +258,7 @@
           .col-md-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-md
-            p <b>Ejemplo 3:</b> María realiza una inversión por valor de $750.000, por un periodo de 3 años. Al finalizar el tiempo le entregan $868.219. ¿Cuál es la tasa de interés compuesto aplicada? Una vez despejada la fórmula principal, se utilizará la siguiente fórmula: 
+            p <b>Ejemplo 3:</b> María realiza una inversión por valor de $750.000, por un periodo de 3 años. Al finalizar el tiempo, le entregan $868.219. ¿Cuál es la tasa de interés compuesto aplicada? Una vez despejada la fórmula principal, se utilizará la siguiente fórmula: 
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 7.
           span Fórmula, solución analítica ejemplo 3
@@ -309,7 +309,7 @@
           .col-md-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-md
-            p <b>Ejemplo 4:</b> Sofía realiza un préstamo de $2.000.000, al final del período paga $3.443.143, la tasa cobrada es del 2,5 % mensual. Hallar el tiempo del préstamo.  Teniendo en cuenta la fórmula principal, se realiza el proceso para despejarla; por ende, se utilizará la siguiente fórmula:
+            p <b>Ejemplo 4:</b> Sofía realiza un préstamo de $2.000.000; al final del período paga $3.443.143; la tasa cobrada es del 2,5 % mensual. Hallar el tiempo del préstamo.  Teniendo en cuenta la fórmula principal, se realiza el proceso para despejarla; por ende, se utilizará la siguiente fórmula:
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 9.
           span Cálculo del tiempo en operaciones financieras con logaritmos
@@ -549,7 +549,7 @@
                 img(src='@/assets/curso/tema1/35.svg', alt='Texto que describa la imagen')
 
           h3.text-center Tasa (i)
-          p Porcentaje que se aplica al valor de la deuda, teniendo en cuenta la igualdad entre el periodo de capitalización y periodo de tiempo.
+          p Porcentaje que se aplica al valor de la deuda, teniendo en cuenta la igualdad entre el periodo de capitalización y el periodo de tiempo.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         .tarjeta--boton.bg-color-3-2.p-4.h-100
           .row.justify-content-center.mb-3
@@ -558,7 +558,7 @@
                 img(src='@/assets/curso/tema1/36.svg', alt='Texto que describa la imagen')
 
           h3.text-center Capital prestado (C<sub>0</sub>)
-          p Valor del préstamo, este se tiene en cuenta para determinar la cuota junto con las condiciones pactadas.
+          p Valor del préstamo; este se tiene en cuenta para determinar la cuota junto con las condiciones pactadas.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
         .tarjeta--boton.bg-color-3-2.p-4.h-100
           .row.justify-content-center.mb-3
@@ -566,7 +566,7 @@
               figure
                 img(src='@/assets/curso/tema1/37.svg', alt='Texto que describa la imagen')
           h3.text-center Periodicidad (n)
-          p Tiempo acordado para cancelar la deuda, se define en número de cuotas.
+          p Tiempo acordado para cancelar la deuda, que se define en número de cuotas.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
         .tarjeta--boton.bg-color-3-2.p-4.h-100
           .row.justify-content-center.mb-3
@@ -1061,7 +1061,7 @@
               .col-md-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
               .col-md
-                p <b>Ejemplo:</b>  se desea realizar una inversión de $12.000.000, durante 4 años, a una tasa de descuento del 15 % anual. Los beneficios (flujos) recibidos por cada año son los siguientes:
+                p <b>Ejemplo:</b>  se desea realizar una inversión de $12.000.000 durante 4 años, a una tasa de descuento del 15 % anual. Los beneficios (flujos) recibidos por cada año son los siguientes:
             .row.justify-content-center.mb-3
               .col-lg-9
                 .titulo-sexto.color-acento-contenido
@@ -1125,7 +1125,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto Tasa Interna de Retorno (TIR)
 
-    p.mb-4(data-aos="fade-down") La tasa interna de retorno TIR, es un indicador de rentabilidad que se utiliza en su mayoría para evaluar proyectos de inversión. Su cálculo se basa en los flujos de caja esperados del proyecto en determinados tiempos.
+    p.mb-4(data-aos="fade-down") La tasa interna de retorno (TIR), es un indicador de rentabilidad que se utiliza en su mayoría para evaluar proyectos de inversión. Su cálculo se basa en los flujos de caja esperados del proyecto en determinados tiempos.
 
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0
