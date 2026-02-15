@@ -299,6 +299,12 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
+          nombre: 'Juan Jose Calderón Gutiérrez',
+          cargo: 'Diseñador de contenidos',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
           nombre: 'Leyson Fabián Castaño Pérez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
