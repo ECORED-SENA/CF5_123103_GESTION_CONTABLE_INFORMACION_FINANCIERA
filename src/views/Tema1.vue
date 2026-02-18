@@ -137,7 +137,7 @@
             figure
               img(src="@/assets/curso/tema1/15.svg", data-aos="zoom-in", alt="Fórmula para calcular el valor actual con interés simple, representada como VA=VF/(1+i*n), acompañada de un ejemplo con un valor futuro de $35.000.000, tasa de interés del 2,5 % y plazo de 10 años, que da como resultado un valor actual de $28.000.000.")
         .bg-color-1-1.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>Para obtener un monto de $35.000.000 durante 10 meses a la tasa del 2,5 % de invertir $28.000.000. 
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>para obtener un monto de $35.000.000 durante 10 meses, a la tasa del 2,5%, de invertir $28.000.000. 
   
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -167,7 +167,7 @@
             figure
               img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés compuesto, representada como VF=VA(1+i)n, con un ejemplo que parte de $12.000.000, una tasa del 9 % anual y un periodo de 3 años, resultando en un valor futuro de $15.540.348, ilustrado con línea de tiempo.")
         .bg-color-8-1.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina con una inversión inicial de $12.000.000 recibirá $15.540.348, dentro de tres años aplicando interés compuesto.
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina con una inversión inicial de $12.000.000, recibirá $15.540.348 dentro de tres años aplicando interés compuesto.
 
     p.mb-4(data-aos="fade-down") Así mismo se puede obtener el Valor Futuro (VF), utilizando la fórmula financiera de Excel llamada VF, la cual se presenta a continuación:
 
@@ -450,7 +450,7 @@
         figure
           img(src="@/assets/curso/tema1/31.png", data-aos="zoom-in", style="max-width: 500px").mx-auto
       .col-lg-9.order-1.mb-3.mb-lg-0
-        p(data-aos="fade-left") Hace referencia a la igualdad que debe existir entre el periodo de capitalización y el periodo de tiempo; para ejemplarizar, si la tasa se presenta de forma trimestral, el periodo debe darse de igual manera. Por lo tanto, de acuerdo con la operación se realizará la conversión de tasas con el fin de lograr su equivalencia (Vidaurri, 2017).
+        p(data-aos="fade-left") Hace referencia a la igualdad que debe existir entre el periodo de capitalización y el periodo de tiempo; para ejemplarizar, si la tasa se presenta de forma trimestral, el periodo debe darse de igual manera. Por lo tanto, de acuerdo con la operación, se realizará la conversión de tasas con el fin de lograr su equivalencia (Vidaurri, 2017).
     
         .cajon.color-secundario.bg-color-15.p-4.mb-4
           p.mb-0 Para profundizar en la temática, recuerde explorar en la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo. 
