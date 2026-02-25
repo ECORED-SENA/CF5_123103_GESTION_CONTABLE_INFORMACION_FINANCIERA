@@ -2,18 +2,30 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p A continuación, se presenta una síntesis de la temática estudiada en el componente formativo:
+    
+    
+    .row.mb-5
+      .col-12.ps-3(style="border-left: 10px solid #39A900;") 
+        h3.mb-1 Operación de procesos contables y financieros
+        p.mb-0 
+          | Síntesis: 
+          | Fundamentos de matemáticas financieras
+
+    
+    p.mt-5 A continuación, se presenta a manera de síntesis, un esquema que articula los elementos principales abordados en el desarrollo del componente formativo.
+    
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre fundamentos de matemáticas financieras que presenta conceptos clave como valor del dinero en el tiempo, interés simple y compuesto, tipos de tasas de interés, elementos y métodos de amortización, alternativas de inversión como VPN y TIR, y principios de la NIIF 13 sobre valor razonable.")
-      .col-auto
+    
+    .row.justify-content-center
+      .col-auto.text-center
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
-
 </template>
 
 <script>
