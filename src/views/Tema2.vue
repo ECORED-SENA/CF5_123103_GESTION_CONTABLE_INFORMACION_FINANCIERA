@@ -7,8 +7,8 @@
         span 2
       h1 Norma Internacional de Información Financiera (NIIF)
     
-    .bg-full-width.bg-color-21.mb-5
-      .p-4.p-md-5
+    .bg-full-width.bg-color-21.mb-5.mt-5
+      .px-4.px-md-5
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
@@ -79,12 +79,12 @@
                   span 4
                 | Si el valor razonable se requiere o permite por otras NIIF, el marco de medición del valor razonable descrito en esta NIIF se aplicará a la medición inicial y posterior.
 
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
           .bloque-texto-g__img
             figure
               img(src="@/assets/curso/tema2/5.svg", alt="" style="max-width: 220px").m-auto
           .bloque-texto-g__texto.p-4
-            p.mb-0 El valor razonable es una medida basada en el mercado, para registrar su valor es importante indagar en el mercado si el elemento ha presentado cambios que requieran una actualización conforme con las variaciones presentadas. Algunos activos que deben ser medidos a valor razonable son: instrumentos financieros, propiedades, planta y equipo, activos biológicos e inversiones.
+            p.mb-0 El valor razonable es una medida basada en el mercado; para registrar su valor, es importante indagar en el mercado si el elemento ha presentado cambios que requieran una actualización conforme con las variaciones presentadas. Algunos activos que deben ser medidos a valor razonable son: instrumentos financieros, propiedades, planta y equipo, activos biológicos e inversiones.
     
     p(data-aos="fade-down") <b>Ejemplo:</b> La empresa Supercueros SAS adquiere 1.000 acciones el 11 de noviembre de 2020, a $2.500 cada una. Se cancela comisión por valor de $500.000.
 
@@ -107,20 +107,20 @@
                 table
                   thead
                     tr
-                      th.ajuste-border-tabla.bg-color-6.text-center  Concepto  
-                      th.bg-color-6.text-center  Valor 
+                      th.ajuste-border-tabla.bg-color-6.txt-p1  Concepto  
+                      th.bg-color-6.txt-p1  Valor 
 
                   tbody
                     tr.bg-color-white
-                      td.ajuste-border-tabla Inversión en acciones  
-                      td.text-right $ 2.500.000 
+                      td.ajuste-border-tabla.txt-p1 Inversión en acciones  
+                      td.txt-p1 $ 2.500.000 
 
                     tr.bg-color-18
-                      td.ajuste-border-tabla Más costo transacción   
-                      td.text-right $ 500.000 
+                      td.ajuste-border-tabla.txt-p1 Más costo transacción   
+                      td.txt-p1 $ 500.000 
                     tr
-                      td.ajuste-border-tabla.text-bold Total Inversión   
-                      td.text-right $ 3.000.000 
+                      td.ajuste-border-tabla.text-bold.txt-p1 Total Inversión   
+                      td.txt-p1 $ 3.000.000 
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 12.
                 span Registro contable de la compra de acciones
@@ -128,24 +128,24 @@
                 table
                   thead
                     tr
-                      th.ajuste-border-tabla.bg-color-6.text-center  Cuenta  
-                      th.ajuste-border-tabla.bg-color-6.text-center  Debe 
-                      th.bg-color-6.text-center  Haber 
+                      th.ajuste-border-tabla.bg-color-6.txt-p1  Cuenta  
+                      th.ajuste-border-tabla.bg-color-6.txt-p1  Debe 
+                      th.bg-color-6.txt-p1  Haber 
 
                   tbody
                     tr.bg-color-white
-                      td.ajuste-border-tabla Activos financieros (acciones)  
-                      td.ajuste-border-tabla.text-right $ 3.000.000
+                      td.ajuste-border-tabla.txt-p1 Activos financieros (acciones)  
+                      td.ajuste-border-tabla.txt-p1 $ 3.000.000
                       td
 
                     tr.bg-color-18
-                      td.ajuste-border-tabla Efectivo  
-                      td.ajuste-border-tabla.text-right -
-                      td.text-right $ 3.000.000
+                      td.ajuste-border-tabla.txt-p1 Efectivo  
+                      td.ajuste-border-tabla.txt-p1 -
+                      td.txt-p1 $ 3.000.000
                     tr
-                      td.ajuste-border-tabla.text-bold Total  
-                      td.ajuste-border-tabla.text-right $ 3.000.000
-                      td.text-right $ 3.000.000
+                      td.ajuste-border-tabla.text-bold.txt-p1 Total  
+                      td.ajuste-border-tabla.txt-p1 $ 3.000.000
+                      td.txt-p1 $ 3.000.000
     
     .row.justify-content-center
       .col-lg-10
@@ -164,47 +164,43 @@
                 table
                   thead
                     tr
-                      th.ajuste-border-tabla.bg-color-6.text-center  Concepto  
-                      th.bg-color-6.text-center  Valor 
-
+                      th.ajuste-border-tabla.bg-color-6.txt-p1  Concepto  
+                      th.bg-color-6.txt-p1  Valor 
                   tbody
                     tr.bg-color-white
-                      td.ajuste-border-tabla Valor razonable 31/12/2020
-                      td.text-right $ 2.200.000 
-
-
+                      td.ajuste-border-tabla.txt-p1 Valor razonable 31/12/2020
+                      td.txt-p1 $ 2.200.000 
                     tr.bg-color-18
-                      td.ajuste-border-tabla Valor costo de adquisición 11/11/2020  
-                      td.text-right $ 2.500.000 
-
+                      td.ajuste-border-tabla.txt-p1 Valor costo de adquisición 11/11/2020  
+                      td.txt-p1 $ 2.500.000 
                     tr
-                      td.ajuste-border-tabla.text-bold Valor pérdida de acciones  
-                      td.text-right -$ 300.000 
+                      td.ajuste-border-tabla.text-bold.txt-p1 Valor pérdida de acciones  
+                      td.txt-p1 -$ 300.000
+
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 14.
                 span Asiento contable por desvalorización de acciones
+              
               .tabla-a.color-acento-botones
                 table
                   thead
                     tr
-                      th.ajuste-border-tabla.bg-color-6.text-center  Cuenta  
-                      th.ajuste-border-tabla.bg-color-6.text-center  Debe 
-                      th.bg-color-6.text-center  Haber 
-
+                      th.ajuste-border-tabla.bg-color-6.txt-p1  Cuenta  
+                      th.ajuste-border-tabla.bg-color-6.txt-p1  Debe 
+                      th.bg-color-6.txt-p1  Haber 
                   tbody
                     tr.bg-color-white
-                      td.ajuste-border-tabla Gasto por pérdida
-                      td.ajuste-border-tabla.text-right $ 300.000
+                      td.ajuste-border-tabla.txt-p1 Gasto por pérdida
+                      td.ajuste-border-tabla.txt-p1 $ 300.000
                       td
-
                     tr.bg-color-18
-                      td.ajuste-border-tabla Activos financieros (acciones) 
-                      td.ajuste-border-tabla.text-right -
-                      td.text-right $ 300.000
+                      td.ajuste-border-tabla.txt-p1 Activos financieros (acciones) 
+                      td.ajuste-border-tabla.txt-p1 -
+                      td.txt-p1 $ 300.000
                     tr
-                      td.ajuste-border-tabla.text-bold Total  
-                      td.ajuste-border-tabla.text-right $ 300.000
-                      td.text-right $ 300.000
+                      td.ajuste-border-tabla.text-bold.txt-p1 Total  
+                      td.ajuste-border-tabla.txt-p1 $ 300.000
+                      td.txt-p1 $ 300.000
     
     .row.justify-content-center
       .col-lg-4.mb-5.mb-lg-0

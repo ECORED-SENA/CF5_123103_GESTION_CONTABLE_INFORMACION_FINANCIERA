@@ -121,14 +121,6 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia:
-        'Meza, J. J. (2017). Matemáticas financieras aplicadas (5.a ed.). Ecoe Ediciones.',
-      tipo: 'Capítulo 1-2-3-4 y 7',
-      link:
-        'https://books.google.hn/books?id=rqIwDgAAQBAJ&printsec=frontcover#v=onepage&q&f=false',
-    },
-    {
       tema: 'Tema 2',
       referencia:
         'Tello, L. B. (2019). Herramientas financieras y valoración de activos y pasivos financieros bajo NIIF. Santiago de Cali: Editorial Universidad Icesi. ',
@@ -151,7 +143,7 @@ export default {
     {
       termino: 'Interés simple',
       significado:
-        'Se llama interés simple aquel en el cual los intereses devengados en un período no ganan intereses en los períodos siguientes, independientemente de que se paguen o no. Únicamente sobre el capital principal se liquidan los intereses sin tener en cuenta los intereses precedentes causados.',
+        'Se llama interés simple a aquel en el cual los intereses devengados en un período no ganan intereses en los períodos siguientes, independientemente de que se paguen o no. Únicamente sobre el capital principal se liquidan los intereses sin tener en cuenta los intereses precedentes causados.',
     },
     {
       termino: 'Inversión',
@@ -176,7 +168,7 @@ export default {
     {
       termino: 'Tasa efectiva',
       significado:
-        'Se paga o se recibe por un préstamo o un ahorro cuando no se retiran los intereses, se asimila a un interés compuesto. Esta tasa es una medida que permite comparar las tasas de interés nominales anuales bajo diferentes modalidades de pago, ya que generalmente se parte de una tasa efectiva para establecer la tasa nominal que se pagará o recibirá por un préstamo o un ahorro.',
+        'Se paga o se recibe por un préstamo o un ahorro cuando no se retiran los intereses; se asimila a un interés compuesto. Esta tasa es una medida que permite comparar las tasas de interés nominales anuales bajo diferentes modalidades de pago, ya que generalmente se parte de una tasa efectiva para establecer la tasa nominal que se pagará o recibirá por un préstamo o un ahorro.',
     },
     {
       termino: 'Tasa interna de retorno (TIR)',
@@ -186,7 +178,7 @@ export default {
     {
       termino: 'Tasa nominal',
       significado:
-        'Es aquella que se paga por un préstamo o una cuenta de ahorros y no se suma al capital, es expresada en términos anuales con una frecuencia de tiempo de pago.',
+        'Es aquella que se paga por un préstamo o una cuenta de ahorros y no se suma al capital; es expresada en términos anuales con una frecuencia de tiempo de pago.',
     },
     {
       termino: 'Valor del dinero en el tiempo',
@@ -196,12 +188,12 @@ export default {
     {
       termino: 'Valor Futuro',
       significado:
-        'Describe el crecimiento de un capital, o inversión, dada una tasa de interés y un tiempo. ',
+        'Describe el crecimiento de un capital o inversión, dada una tasa de interés y un tiempo. ',
     },
     {
       termino: 'Valor presente o actual',
       significado:
-        'Describe los flujos de dinero futuros, que a una tasa de interés de descuento y periodos dados representa valores presentes.',
+        'Describe los flujos de dinero futuros, que a una tasa de interés de descuento y periodos dados representan valores presentes.',
     },
     {
       termino: 'Valor presente Neto',
@@ -253,8 +245,7 @@ export default {
     {
       referencia:
         'Tello, L. B. (2019). Herramientas financieras y valoración de activos y pasivos financieros bajo NIIF. Editorial Universidad Icesi. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/130247?page=279',
+      link: '',
     },
   ],
   creditos: [

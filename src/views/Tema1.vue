@@ -69,7 +69,7 @@
               figure
                 img(src="@/assets/curso/tema1/7.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h4 Diagrama flujo de caja
+              h4 Diagrama de flujo de caja
               p Esquema gráfico que representa el capital invertido (el valor final en un tiempo determinado y tasa acordada). 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
@@ -114,7 +114,7 @@
             figure
               img(src="@/assets/curso/tema1/12.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés simple, que incluye la expresión matemática VF=VA(1+n*i), un ejemplo numérico con valor actual de $12.000.000, tasa del 9 % anual y un periodo de 3 años, y una línea de tiempo que representa el crecimiento hasta un valor futuro de $15.240.000.")
         .bg-color-16-2.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina, con una inversión inicial de $12.000.000 recibirá $15.240.000 dentro de tres años aplicando interés simple.
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina, con una inversión inicial de $12.000.000, recibirá $15.240.000 dentro de tres años aplicando interés simple.
     
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0.d-none.d-md-block
@@ -137,14 +137,14 @@
             figure
               img(src="@/assets/curso/tema1/15.svg", data-aos="zoom-in", alt="Fórmula para calcular el valor actual con interés simple, representada como VA=VF/(1+i*n), acompañada de un ejemplo con un valor futuro de $35.000.000, tasa de interés del 2,5 % y plazo de 10 años, que da como resultado un valor actual de $28.000.000.")
         .bg-color-1-1.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>para obtener un monto de $35.000.000 durante 10 meses, a la tasa del 2,5%, de invertir $28.000.000. 
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> para obtener un monto de $35.000.000 durante 10 meses, a la tasa del 2,5 %, de invertir $28.000.000. 
   
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto Interés compuesto
     
-    p.mb-5(data-aos="fade-down") Interés generado en un periodo de tiempo, con la característica especial de ser capitalizable; es decir, se acumula, con el capital, presentando un interés mayor al final del periodo. 
+    p.mb-5(data-aos="fade-down") Interés generado en un periodo de tiempo, con la característica especial de ser capitalizable; es decir, se acumula con el capital, presentando un interés mayor al final del periodo. 
 
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0.order-lg-2.d-none.d-md-block
@@ -167,7 +167,7 @@
             figure
               img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés compuesto, representada como VF=VA(1+i)n, con un ejemplo que parte de $12.000.000, una tasa del 9 % anual y un periodo de 3 años, resultando en un valor futuro de $15.540.348, ilustrado con línea de tiempo.")
         .bg-color-8-1.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina con una inversión inicial de $12.000.000, recibirá $15.540.348 dentro de tres años aplicando interés compuesto.
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina, con una inversión inicial de $12.000.000, recibirá $15.540.348 dentro de tres años aplicando interés compuesto.
 
     p.mb-4(data-aos="fade-down") Así mismo se puede obtener el Valor Futuro (VF), utilizando la fórmula financiera de Excel llamada VF, la cual se presenta a continuación:
 
@@ -198,7 +198,7 @@
             li.mb-3.d-flex
               i.fas.fa-chevron-right.bg-color-17
               p.mb-0 <b>Tipo:</b> es un valor lógico. Se registra “0” para una tasa vencida y “1” para tasa anticipada.
-          p Es importante señalar que, para realizar los cálculos en Excel, debe estar registrada información, con el fin de ser tomada de cada una de las celdas y de esta manera refleje la formulación para su respectiva interpretación.
+          p Es importante señalar que, para realizar los cálculos en Excel, debe estar registrada información, con el fin de ser tomada de cada una de las celdas y de esta manera reflejar la formulación para su respectiva interpretación.
 
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0.order-lg-2.d-none.d-md-block
@@ -234,7 +234,7 @@
             img(src="@/assets/curso/tema1/21.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular el valor actual (VA) de una inversión, con campos para ingresar tasa, número de periodos (Nper), pago periódico, valor futuro (Vf) y tipo de vencimiento")
           
         .col-lg-6.mb-3.mb-lg-0(data-aos="fade-left")
-          p <b>VA(tasa;nper;pago;(vf);tipo),</b> teniendo en cuenta que:María realiza
+          p <b>VA(tasa;nper;pago;(vf);tipo),</b> teniendo en cuenta que:
           ul.lista-ul--color.mb-5
             li.mb-3.d-flex
               i.fas.fa-chevron-right.bg-color-17
@@ -362,7 +362,7 @@
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           div(titulo=" Tasa nominal")
-            p.mb-0 Tasa que se genera en un periodo de tiempo y que no capitaliza; por lo tanto, se dice que se asemeja al interés simple. (Vidaurri, 2017)
+            p.mb-0 Tasa que se genera en un periodo de tiempo y que no capitaliza; por lo tanto, se dice que se asemeja al interés simple. (Vidaurri, 2017).
           div(titulo="Tasa efectiva")
             p.mb-0 Tasa que efectivamente se reconoce en la transacción financiera. Es capitalizable en el periodo de tiempo, haciendo referencia al interés compuesto. (Vidaurri, 2017).
           div(titulo="Tasa periódica")
@@ -385,17 +385,17 @@
                   ul.lista-ul--color.mb-0.mt-2
                     li.mb-3.d-flex
                       i.fas.fa-chevron-right.bg-color-17
-                      p.mb-0 <b>Anticipada (A):</b> se calcula el interés de forma anticipada en el respectivo periodo. (Vidaurri, 2017)
+                      p.mb-0 <b>Anticipada (A):</b> se calcula el interés de forma anticipada en el respectivo periodo. (Vidaurri, 2017).
                     li.mb-3.d-flex
                       i.fas.fa-chevron-right.bg-color-17
-                      p.mb-0 <b>Vencida (V):</b> se calcula el interés de forma vencida en el periodo. (Vidaurri, 2017)
+                      p.mb-0 <b>Vencida (V):</b> se calcula el interés de forma vencida en el periodo. (Vidaurri, 2017).
         
         p.mb-5(data-aos="fade-down") Para aplicar los tipos de tasas de interés es importante conocer los periodos de capitalización, que se reconocen de la siguiente manera:
         .row.justify-content-center.align-items-center
           .col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/30.png', alt='', style="max-width: 300px").mx-auto
-          .col-lg-5(data-aos="fade-left")
+          .col-lg-6(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido
               h5 Tabla 1.
               span Frecuencias de capitalización y sus respectivas abreviaturas
@@ -403,42 +403,42 @@
               table
                 thead
                   tr
-                    th.ajuste-border-tabla.text-center Frecuencia de capitalización 
-                    th.ajuste-border-tabla.text-center  Abreviatura
-                    th.text-center  Capitalización anual
+                    th.ajuste-border-tabla.txt-p1 Frecuencia de capitalización 
+                    th.ajuste-border-tabla.txt-p1  Abreviatura
+                    th.txt-p1  Capitalización anual
                 tbody
                   tr.bg-color-18
-                    td.ajuste-border-tabla.text-center 1
-                    td.ajuste-border-tabla.text-center A
-                    td.text-center Anual
+                    td.ajuste-border-tabla.txt-p1 1
+                    td.ajuste-border-tabla.txt-p1 A
+                    td.txt-p1 Anual
                   tr.bg-color-white
-                    td.ajuste-border-tabla.text-center 12
-                    td.ajuste-border-tabla.text-center M
-                    td.text-center Mensual
+                    td.ajuste-border-tabla.txt-p1 12
+                    td.ajuste-border-tabla.txt-p1 M
+                    td.txt-p1 Mensual
                   tr.bg-color-18
-                    td.ajuste-border-tabla.text-center 6
-                    td.ajuste-border-tabla.text-center B
-                    td.text-center Bimestral
+                    td.ajuste-border-tabla.txt-p1 6
+                    td.ajuste-border-tabla.txt-p1 B
+                    td.txt-p1 Bimestral
                   tr.bg-color-white
-                    td.ajuste-border-tabla.text-center 4
-                    td.ajuste-border-tabla.text-center T
-                    td.text-center Trimestral
+                    td.ajuste-border-tabla.txt-p1 4
+                    td.ajuste-border-tabla.txt-p1 T
+                    td.txt-p1 Trimestral
                   tr.bg-color-18
-                    td.ajuste-border-tabla.text-center 3
-                    td.ajuste-border-tabla.text-center C
-                    td.text-center Cuatrimestral
+                    td.ajuste-border-tabla.txt-p1 3
+                    td.ajuste-border-tabla.txt-p1 C
+                    td.txt-p1 Cuatrimestral
                   tr.bg-color-white
-                    td.ajuste-border-tabla.text-center 2
-                    td.ajuste-border-tabla.text-center S
-                    td.text-center Semestral
+                    td.ajuste-border-tabla.txt-p1 2
+                    td.ajuste-border-tabla.txt-p1 S
+                    td.txt-p1 Semestral
                   tr.bg-color-18
-                    td.ajuste-border-tabla.text-center 24
-                    td.ajuste-border-tabla.text-center Q
-                    td.text-center Quincenal
+                    td.ajuste-border-tabla.txt-p1 24
+                    td.ajuste-border-tabla.txt-p1 Q
+                    td.txt-p1 Quincenal
                   tr.bg-color-white
-                    td.ajuste-border-tabla.text-center 365
-                    td.ajuste-border-tabla.text-center D
-                    td.text-center Diaria
+                    td.ajuste-border-tabla.txt-p1 365
+                    td.ajuste-border-tabla.txt-p1 D
+                    td.txt-p1 Diaria
       
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -470,6 +470,7 @@
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa efectiva entre distintos periodos, expresada como ie=((1+i)(n1/n2)-1), acompañada de la definición de variables: tasa efectiva deseada, tasa conocida, y periodos correspondientes de ambas tasas.")
             p <b>Ejemplo:</b> convertir el 8 % Efectivo Mensual (EF) a Efectivo Semestral (ES).
+            p #[b Solución]
             h5 i<sub>e</sub> = ((1+0,08) (12/2)) – 1
             h5 i<sub>e</sub> = 58, 69 % Efectivo semestral (ES)
           div(numero="2" titulo="Conversión de tasa efectiva a tasa nominal") 
@@ -479,6 +480,7 @@
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33-1.svg", data-aos="zoom-in", alt="Fórmula de conversión de tasa efectiva a nominal, representada como j = ((1 + iₑ)^(n1 / n2) - 1) x n, donde j es la tasa nominal, iₑ es la tasa efectiva conocida, n1 es el periodo de la tasa conocida, n2 el periodo al que se quiere convertir, y n el número de periodos en el año.")
             p <b>Ejemplo:</b> se tiene una tasa del 24 % Efectiva Anual (EA), realizar la conversión a nominal mensual equivalente.
+            p #[b Solución]
             h5 j = ((1+ 0,24 ) (1/12)   -1 ) * 12
             h5 j = 21,71 % Nominal Mensual (NM)
           div(numero="3" titulo="Conversión de tasa nominal vencida a tasa efectiva") 
@@ -488,6 +490,7 @@
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33-2.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa nominal vencida a efectiva, expresada como ie=(1+in1)(n1/n2)-1, junto con la definición de sus variables: tasa efectiva, tasa conocida, y periodos asociados a ambas tasas.")
             p <b>Ejemplo:</b> se tiene una tasa del 24 % nominal anual mes vencido, hallar la tasa efectiva anual.
+            p #[b Solución]
             h5 i<sub>e</sub> = (1+ 0,24/12 ) (12/1)  -1 
             h5 i<sub>e</sub> = 26,82 % Efectiva Anual (EA) 
           div(numero="4" titulo="Conversión de tasa nominal anticipada a efectiva") 
@@ -497,6 +500,7 @@
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33-3.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa nominal anticipada a efectiva, representada como ie=(1-in1)(-n1/n2)-1, acompañada de las definiciones de la tasa efectiva, tasa conocida y los periodos correspondientes a cada una.")
             p <b>Ejemplo:</b> convertir el 23 % Nominal anual trimestral anticipada (NATA) a efectiva anual.
+            p #[b Solución]
             h5 i<sub>e</sub> = (1-( 0,23/4 ) )(- 4/1)  -1 
             h5 i<sub>e</sub> = 26,72 % Efectiva Anual (EA) 
           div(numero="5" titulo="Conversión de tasa nominal a otra tasa nominal") 
@@ -533,7 +537,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto.mb-2
             i.fas.fa-quote-left
-            h4.text-regular Es una matriz que presenta las cuotas periódicas de un préstamo, teniendo en cuenta el capital inicial, los intereses generados y el abono que se realiza, conforme al acuerdo entre deudor y acreedor 
+            h4.text-regular Es una matriz que presenta las cuotas periódicas de un préstamo, teniendo en cuenta el capital inicial, los intereses generados y el abono que se realiza, conforme al acuerdo entre deudor y acreedor.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (Meza, 2017).
@@ -548,7 +552,7 @@
               figure
                 img(src='@/assets/curso/tema1/35.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Tasa (i)
+          h3.txt-p1 Tasa (i)
           p Porcentaje que se aplica al valor de la deuda, teniendo en cuenta la igualdad entre el periodo de capitalización y el periodo de tiempo.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         .tarjeta--boton.bg-color-3-2.p-4.h-100
@@ -557,7 +561,7 @@
               figure
                 img(src='@/assets/curso/tema1/36.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Capital prestado (C<sub>0</sub>)
+          h3.txt-p1 Capital prestado (C<sub>0</sub>)
           p Valor del préstamo; este se tiene en cuenta para determinar la cuota junto con las condiciones pactadas.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
         .tarjeta--boton.bg-color-3-2.p-4.h-100
@@ -565,7 +569,7 @@
             .col-7
               figure
                 img(src='@/assets/curso/tema1/37.svg', alt='Texto que describa la imagen')
-          h3.text-center Periodicidad (n)
+          h3.txt-p1 Periodicidad (n)
           p Tiempo acordado para cancelar la deuda, que se define en número de cuotas.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
         .tarjeta--boton.bg-color-3-2.p-4.h-100
@@ -573,7 +577,7 @@
             .col-7
               figure
                 img(src='@/assets/curso/tema1/38.svg', alt='Texto que describa la imagen')
-          h3.text-center Cuota periódica constante (a)
+          h3.txt-p1 Cuota periódica constante (a)
           p Corresponde al valor de la cuota fija.
     
     .row.mb-5
@@ -587,7 +591,7 @@
           .col-md
             p <b>Ejemplo 1:</b>  la siguiente tabla de amortización presenta el método francés, donde se establece la cuota fija en el periodo de pago acordado.
         .cajon.color-acento-contenido.p-4.mb-4
-          p.mb-0 La empresa Supercueros SAS, realiza un préstamo por valor de $12.000.000, a una tasa del 1,7 % EM, por un periodo de tiempo de 6 meses.
+          p.mb-0 La empresa Supercueros SAS realiza un préstamo por valor de $12.000.000, a una tasa del 1,7 % EM, por un periodo de tiempo de 6 meses.
         .row.justify-content-center
           .col-lg-12
             .titulo-sexto.color-acento-contenido
@@ -597,22 +601,22 @@
               table
                 thead
                   tr
-                    th.ajuste-border-tabla.text-center Concepto 
-                    th.ajuste-border-tabla.text-center  Valor
-                    th.text-center  Frecuencia
+                    th.ajuste-border-tabla.txt-p1 Concepto 
+                    th.ajuste-border-tabla.txt-p1  Valor
+                    th.txt-p1  Frecuencia
                 tbody
                   tr.bg-color-18
-                    td.ajuste-border-tabla Préstamo
-                    td.ajuste-border-tabla.text-center $12.000.000
-                    td.text-center - 
+                    td.ajuste-border-tabla.txt-p1 Préstamo
+                    td.ajuste-border-tabla.txt-p1 $12.000.000
+                    td.txt-p1 - 
                   tr.bg-color-white
-                    td.ajuste-border-tabla Tasa
-                    td.ajuste-border-tabla.text-center 1,70 %
-                    td.text-center Mensual
+                    td.ajuste-border-tabla.txt-p1 Tasa
+                    td.ajuste-border-tabla.txt-p1 1,70 %
+                    td.txt-p1 Mensual
                   tr.bg-color-18
-                    td.ajuste-border-tabla Periodo
-                    td.ajuste-border-tabla.text-center 6
-                    td.text-center -
+                    td.ajuste-border-tabla.txt-p1 Periodo
+                    td.ajuste-border-tabla.txt-p1 6
+                    td.txt-p1 -
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
@@ -626,65 +630,65 @@
           table
             thead
               tr
-                th.ajuste-border-tabla.text-center No 
-                th.ajuste-border-tabla.text-center CUOTA
-                th.ajuste-border-tabla.text-center INTERÉS
-                th.ajuste-border-tabla.text-center AMORTIZACIÓN
-                th.text-center SALDO
+                th.ajuste-border-tabla.txt-p1 No 
+                th.ajuste-border-tabla.txt-p1 CUOTA
+                th.ajuste-border-tabla.txt-p1 INTERÉS
+                th.ajuste-border-tabla.txt-p1 AMORTIZACIÓN
+                th.txt-p1 SALDO
             tbody
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 0
-                td.ajuste-border-tabla.text-right -
-                td.ajuste-border-tabla.text-right -
-                td.ajuste-border-tabla.text-right -
-                td.text-right $12.000.000 
+                td.ajuste-border-tabla.txt-p1 0
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.text-right.txt-p1 $12.000.000 
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 1
-                td.ajuste-border-tabla.text-right $2.120.671,37
-                td.ajuste-border-tabla.text-right $204.000 
-                td.ajuste-border-tabla.text-right $1.916.671,37
-                td.text-right $10.083.329 
+                td.ajuste-border-tabla.txt-p1 1
+                td.ajuste-border-tabla.text-right.txt-p1 $2.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $204.000 
+                td.ajuste-border-tabla.text-right.txt-p1 $1.916.671,37
+                td.text-right.txt-p1 $10.083.329 
 
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 2
-                td.ajuste-border-tabla.text-right $2.120.671,37
-                td.ajuste-border-tabla.text-right $171.417 
-                td.ajuste-border-tabla.text-right $1.949.254,78
-                td.text-right $8.134.074 
+                td.ajuste-border-tabla.txt-p1 2
+                td.ajuste-border-tabla.text-right.txt-p1 $2.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $171.417 
+                td.ajuste-border-tabla.text-right.txt-p1 $1.949.254,78
+                td.text-right.txt-p1 $8.134.074 
 
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 3
-                td.ajuste-border-tabla.text-right $2.120.671,37
-                td.ajuste-border-tabla.text-right $138.279  
-                td.ajuste-border-tabla.text-right $1.982.392,12
-                td.text-right $6.151.682 
+                td.ajuste-border-tabla.txt-p1 3
+                td.ajuste-border-tabla.text-right.txt-p1 $2.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $138.279  
+                td.ajuste-border-tabla.text-right.txt-p1 $1.982.392,12
+                td.text-right.txt-p1 $6.151.682 
 
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 4
-                td.ajuste-border-tabla.text-right $2.120.671,37
-                td.ajuste-border-tabla.text-right $104.579 
-                td.ajuste-border-tabla.text-right $2.016.092,78
-                td.text-right $4.135.589 
+                td.ajuste-border-tabla.txt-p1 4
+                td.ajuste-border-tabla.text-right.txt-p1 $2.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $104.579 
+                td.ajuste-border-tabla.text-right.txt-p1 $2.016.092,78
+                td.text-right.txt-p1 $4.135.589 
  
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 5
-                td.ajuste-border-tabla.text-right $2.120.671,37
-                td.ajuste-border-tabla.text-right $70.305 
-                td.ajuste-border-tabla.text-right $2.050.366,36
-                td.text-right $2.085.223 
+                td.ajuste-border-tabla.txt-p1 5
+                td.ajuste-border-tabla.text-right.txt-p1 $2.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $70.305 
+                td.ajuste-border-tabla.text-right.txt-p1 $2.050.366,36
+                td.text-right.txt-p1 $2.085.223 
  
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 6
-                td.ajuste-border-tabla.text-right $2.120.671,37
-                td.ajuste-border-tabla.text-right $35.449
-                td.ajuste-border-tabla.text-right $2.085.222,59
-                td.text-right $0
+                td.ajuste-border-tabla.txt-p1 6
+                td.ajuste-border-tabla.text-right.txt-p1 $2.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $35.449
+                td.ajuste-border-tabla.text-right.txt-p1 $2.085.222,59
+                td.text-right.txt-p1 $0
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 
-                td.ajuste-border-tabla.text-right $12.724.028,23
-                td.ajuste-border-tabla.text-right $724.028,23
-                td.ajuste-border-tabla.text-right $12.000.000,00
-                td.text-right -
+                td.ajuste-border-tabla.txt-p1 
+                td.ajuste-border-tabla.text-right.txt-p1 $12.724.028,23
+                td.ajuste-border-tabla.text-right.txt-p1 $724.028,23
+                td.ajuste-border-tabla.text-right.txt-p1 $12.000.000,00
+                td.text-right.txt-p1 -
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -701,6 +705,10 @@
                     span 1
                   | El valor de la cuota fija se calcula aplicando la siguiente fórmula:
                 .row.justify-content-center.mb-3
+                  .col-auto
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Figura 15.
+                      span Fórmula para calcular el valor de la cuota fija
                   .col-lg-6.mb-3.mb-lg-0
                     figure
                       img(src="@/assets/curso/tema1/41.svg", alt="Fórmula para calcular el valor de la cuota fija, representada como a = C₀ x [i / (1 - (1 + i)^-n)], donde a es la cuota fija, C₀ es el capital inicial, i es la tasa de interés por periodo, y n es el número total de periodos.")
@@ -715,10 +723,13 @@
                 li.d-flex 
                   .lista-ol--cuadro__vineta
                     span 4
-                  | El saldo se obtiene restando el saldo anterior, menos el valor de la amortización.
+                  | El saldo se obtiene restando el saldo anterior menos el valor de la amortización.
 
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-2
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Figura 16.
+                span Ventana de argumentos de la función PAGO en Excel
               figure
                 img(src="@/assets/curso/tema1/42.png", alt="Ventana de Excel para ingresar argumentos de la función financiera PAGO, que incluye campos para Tasa, Nper, Va, Vt y Tipo, con una descripción sobre el cálculo del pago de un préstamo con tasa de interés constante.")
             .col-lg-6.mb-3.mb-lg-0.order-1.mb-3.mb-lg-0
@@ -733,10 +744,10 @@
                   p.mb-0 <b>Nper:</b> es el número de períodos.
                 li.mb-3.d-flex
                   i.fas.fa-chevron-right.bg-color-17
-                  p.mb-0 <b>Va:</b> Valor actual (valor del préstamo).
+                  p.mb-0 <b>Va:</b> valor actual (valor del préstamo).
                 li.mb-3.d-flex
                   i.fas.fa-chevron-right.bg-color-17
-                  p.mb-0 <b>Vf:</b>  Valor futuro.
+                  p.mb-0 <b>Vf:</b> valor futuro.
                 li.mb-3.d-flex
                   i.fas.fa-chevron-right.bg-color-17
                   p.mb-0 <b>Tipo:</b> es un valor lógico. Se registra “0” para una tasa vencida y “1” para tasa anticipada.
@@ -756,26 +767,26 @@
           table
             thead
               tr
-                th.ajuste-border-tabla.bg-color-6.text-center Concepto 
-                th.ajuste-border-tabla.bg-color-6.text-center  Valor
-                th.bg-color-6.text-center  Frecuencia
+                th.ajuste-border-tabla.bg-color-6.txt-p1 Concepto 
+                th.ajuste-border-tabla.bg-color-6.txt-p1  Valor
+                th.bg-color-6.txt-p1  Frecuencia
             tbody
               tr.bg-color-18
-                td.ajuste-border-tabla Préstamo
-                td.ajuste-border-tabla.text-center $12.000.000
-                td.text-center - 
+                td.ajuste-border-tabla.txt-p1 Préstamo
+                td.ajuste-border-tabla.txt-p1 $12.000.000
+                td.txt-p1 - 
               tr.bg-color-white
-                td.ajuste-border-tabla Tasa
-                td.ajuste-border-tabla.text-center 1,70 %
-                td.text-center Mensual
+                td.ajuste-border-tabla.txt-p1 Tasa
+                td.ajuste-border-tabla.txt-p1 1,70 %
+                td.txt-p1 Mensual
               tr.bg-color-18
-                td.ajuste-border-tabla Período
-                td.ajuste-border-tabla.text-center 6
-                td.text-center -
+                td.ajuste-border-tabla.txt-p1 Período
+                td.ajuste-border-tabla.txt-p1 6
+                td.txt-p1 -
               tr.bg-color-white
-                td.ajuste-border-tabla Período De Gracia
-                td.ajuste-border-tabla.text-center 2
-                td.text-center Meses
+                td.ajuste-border-tabla.txt-p1 Período De Gracia
+                td.ajuste-border-tabla.txt-p1 2
+                td.txt-p1 Meses
     .row.mb-5.justify-content-center
       .col-lg-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
@@ -785,68 +796,67 @@
           table
             thead
               tr
-                th.ajuste-border-tabla.bg-color-6.text-center No 
-                th.ajuste-border-tabla.bg-color-6.text-center CUOTA
-                th.ajuste-border-tabla.bg-color-6.text-center INTERÉS
-                th.ajuste-border-tabla.bg-color-6.text-center AMORTIZACIÓN
-                th.bg-color-6.text-center SALDO
+                th.ajuste-border-tabla.bg-color-6.txt-p1 No 
+                th.ajuste-border-tabla.bg-color-6.txt-p1 CUOTA
+                th.ajuste-border-tabla.bg-color-6.txt-p1 INTERÉS
+                th.ajuste-border-tabla.bg-color-6.txt-p1 AMORTIZACIÓN
+                th.bg-color-6.txt-p1 SALDO
             tbody
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 0
-                td.ajuste-border-tabla.text-right -
-                td.ajuste-border-tabla.text-right -
-                td.ajuste-border-tabla.text-right -
-                td.text-right $12.000.000 
+                td.ajuste-border-tabla.txt-p1 0
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.text-right.txt-p1 $12.000.000 
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 1
-                td.ajuste-border-tabla.text-right $0,00
-                td.ajuste-border-tabla.text-right $204.000  
-                td.ajuste-border-tabla.text-right.bg-color-20 -$204.000,00
-                td.text-right $12.204.000 
+                td.ajuste-border-tabla.txt-p1 1
+                td.ajuste-border-tabla.text-right.txt-p1 $0,00
+                td.ajuste-border-tabla.text-right.txt-p1 $204.000  
+                td.ajuste-border-tabla.text-right.bg-color-20.txt-p1 -$204.000,00
+                td.text-right.txt-p1 $12.204.000 
 
 
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 2
-                td.ajuste-border-tabla.text-right $0,00
-                td.ajuste-border-tabla.text-right $207.468 
-                td.ajuste-border-tabla.text-right.bg-color-20 -$207.468,00
-                td.text-right $12.411.468 
+                td.ajuste-border-tabla.txt-p1 2
+                td.ajuste-border-tabla.text-right.txt-p1 $0,00
+                td.ajuste-border-tabla.text-right.txt-p1 $207.468 
+                td.ajuste-border-tabla.text-right.bg-color-20.txt-p1 -$207.468,00
+                td.text-right.txt-p1 $12.411.468 
  
 
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 3
-                td.ajuste-border-tabla.text-right $3.235.850,25
-                td.ajuste-border-tabla.text-right $210.995  
-                td.ajuste-border-tabla.text-right $3.024.855,29
-                td.text-right $3.024.855,29
+                td.ajuste-border-tabla.txt-p1 3
+                td.ajuste-border-tabla.text-right.txt-p1 $3.235.850,25
+                td.ajuste-border-tabla.text-right.txt-p1 $210.995  
+                td.ajuste-border-tabla.text-right.txt-p1 $3.024.855,29
+                td.text-right.txt-p1 $3.024.855,29
 
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 4
-                td.ajuste-border-tabla.text-right $3.235.850,25
-                td.ajuste-border-tabla.text-right $159.572 
-                td.ajuste-border-tabla.text-right $3.076.277,83
-                td.text-right $6.310.335  
+                td.ajuste-border-tabla.txt-p1 4
+                td.ajuste-border-tabla.text-right.txt-p1 $3.235.850,25
+                td.ajuste-border-tabla.text-right.txt-p1 $159.572 
+                td.ajuste-border-tabla.text-right.txt-p1 $3.076.277,83
+                td.text-right.txt-p1 $6.310.335  
  
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 5
-                td.ajuste-border-tabla.text-right $3.235.850,25
-                td.ajuste-border-tabla.text-right $107.276 
-                td.ajuste-border-tabla.text-right $3.128.574,55
-                td.text-right $3.181.760  
+                td.ajuste-border-tabla.txt-p1 5
+                td.ajuste-border-tabla.text-right.txt-p1 $3.235.850,25
+                td.ajuste-border-tabla.text-right.txt-p1 $107.276 
+                td.ajuste-border-tabla.text-right.txt-p1 $3.128.574,55
+                td.text-right.txt-p1 $3.181.760  
  
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 6
-                td.ajuste-border-tabla.text-right $3.235.850,25
-                td.ajuste-border-tabla.text-right $54.090 
-                td.ajuste-border-tabla.text-right $3.181.760,32
-                td.text-right $0
+                td.ajuste-border-tabla.txt-p1 6
+                td.ajuste-border-tabla.text-right.txt-p1 $3.235.850,25
+                td.ajuste-border-tabla.text-right.txt-p1 $54.090 
+                td.ajuste-border-tabla.text-right.txt-p1 $3.181.760,32
+                td.text-right.txt-p1 $0
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center.text-bold TOTAL
-                td.ajuste-border-tabla.text-right $12.943.400,99
-                td.ajuste-border-tabla.text-right $943.401 
-                td.ajuste-border-tabla.text-right $12.000.000,00
-                td.text-right -
-
+                td.ajuste-border-tabla.txt-p1.text-bold TOTAL
+                td.ajuste-border-tabla.text-right.txt-p1 $12.943.400,99
+                td.ajuste-border-tabla.text-right.txt-p1 $943.401 
+                td.ajuste-border-tabla.text-right.txt-p1 $12.000.000,00
+                td.text-right.txt-p1 -
    
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
@@ -886,30 +896,30 @@
           table
             thead
               tr
-                th.ajuste-border-tabla.bg-color-6.text-center Concepto 
-                th.ajuste-border-tabla.bg-color-6.text-center  Valor
-                th.bg-color-6.text-center  Frecuencia
+                th.ajuste-border-tabla.bg-color-6.txt-p1 Concepto 
+                th.ajuste-border-tabla.bg-color-6.txt-p1  Valor
+                th.bg-color-6.txt-p1  Frecuencia
             tbody
               tr.bg-color-18
-                td.ajuste-border-tabla.text-bold Préstamo
-                td.ajuste-border-tabla.text-center $12.000.000
-                td.text-center - 
+                td.ajuste-border-tabla.text-bold.txt-p1 Préstamo
+                td.ajuste-border-tabla.txt-p1 $12.000.000
+                td.txt-p1 - 
               tr.bg-color-white
-                td.ajuste-border-tabla.text-bold Tasa
-                td.ajuste-border-tabla.text-center 1,70 %
-                td.text-center Mensual
+                td.ajuste-border-tabla.text-bold.txt-p1 Tasa
+                td.ajuste-border-tabla.txt-p1 1,70 %
+                td.txt-p1 Mensual
               tr.bg-color-18
-                td.ajuste-border-tabla.text-bold Período
-                td.ajuste-border-tabla.text-center 6
-                td.text-center -
+                td.ajuste-border-tabla.text-bold.txt-p1 Período
+                td.ajuste-border-tabla.txt-p1 6
+                td.txt-p1 -
               tr.bg-color-white
-                td.ajuste-border-tabla.text-bold Abono
-                td.ajuste-border-tabla.text-center 3
-                td.text-center Meses
+                td.ajuste-border-tabla.text-bold.txt-p1 Abono
+                td.ajuste-border-tabla.txt-p1 3
+                td.txt-p1 Meses
               tr.bg-color-white
-                td.ajuste-border-tabla.text-bold Valor del abono
-                td.ajuste-border-tabla.text-center $2.000.000 
-                td.text-center -
+                td.ajuste-border-tabla.text-bold.txt-p1 Valor del abono
+                td.ajuste-border-tabla.txt-p1 $2.000.000 
+                td.txt-p1 -
     .row.mb-5.justify-content-center
       .col-lg-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
@@ -919,66 +929,66 @@
           table
             thead
               tr
-                th.ajuste-border-tabla.bg-color-6.text-center No 
-                th.ajuste-border-tabla.bg-color-6.text-center CUOTA
-                th.ajuste-border-tabla.bg-color-6.text-center INTERÉS
-                th.ajuste-border-tabla.bg-color-6.text-center AMORTIZACIÓN
-                th.bg-color-6.text-center SALDO
+                th.ajuste-border-tabla.bg-color-6.txt-p1 No 
+                th.ajuste-border-tabla.bg-color-6.txt-p1 CUOTA
+                th.ajuste-border-tabla.bg-color-6.txt-p1 INTERÉS
+                th.ajuste-border-tabla.bg-color-6.txt-p1 AMORTIZACIÓN
+                th.bg-color-6.txt-p1 SALDO
             tbody
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 0
-                td.ajuste-border-tabla.text-right -
-                td.ajuste-border-tabla.text-right -
-                td.ajuste-border-tabla.text-right -
-                td.text-right $12.000.000 
+                td.ajuste-border-tabla.txt-p1 0
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.text-right.txt-p1 $12.000.000 
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 1
-                td.ajuste-border-tabla.text-right $2.120.671,37
-                td.ajuste-border-tabla.text-right $204.000  
-                td.ajuste-border-tabla.text-right $1.916.671,37
-                td.text-right $10.083.329 
+                td.ajuste-border-tabla.txt-p1 1
+                td.ajuste-border-tabla.text-right.txt-p1 $2.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $204.000  
+                td.ajuste-border-tabla.text-right.txt-p1 $1.916.671,37
+                td.text-right.txt-p1 $10.083.329 
 
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 2
-                td.ajuste-border-tabla.text-right $2.120.671,37
-                td.ajuste-border-tabla.text-right $171.417 
-                td.ajuste-border-tabla.text-right $1.949.254,78
-                td.text-right $8.134.074 
+                td.ajuste-border-tabla.txt-p1 2
+                td.ajuste-border-tabla.text-right.txt-p1 $2.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $171.417 
+                td.ajuste-border-tabla.text-right.txt-p1 $1.949.254,78
+                td.text-right.txt-p1 $8.134.074 
  
 
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 3
-                td.ajuste-border-tabla.text-right $4.120.671,37
-                td.ajuste-border-tabla.text-right $138.279   
-                td.ajuste-border-tabla.text-right $3.982.392,12
-                td.text-right $4.151.682 
+                td.ajuste-border-tabla.txt-p1 3
+                td.ajuste-border-tabla.text-right.txt-p1 $4.120.671,37
+                td.ajuste-border-tabla.text-right.txt-p1 $138.279   
+                td.ajuste-border-tabla.text-right.txt-p1 $3.982.392,12
+                td.text-right.txt-p1 $4.151.682 
 
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 4
-                td.ajuste-border-tabla.text-right $1.431.210,68
-                td.ajuste-border-tabla.text-right $70.579  
-                td.ajuste-border-tabla.text-right $1.360.632,09
-                td.text-right $2.791.050   
+                td.ajuste-border-tabla.txt-p1 4
+                td.ajuste-border-tabla.text-right.txt-p1 $1.431.210,68
+                td.ajuste-border-tabla.text-right.txt-p1 $70.579  
+                td.ajuste-border-tabla.text-right.txt-p1 $1.360.632,09
+                td.text-right.txt-p1 $2.791.050   
  
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center 5
-                td.ajuste-border-tabla.text-right $1.431.210,68
-                td.ajuste-border-tabla.text-right $47.448 
-                td.ajuste-border-tabla.text-right $1.383.762,84
-                td.text-right $1.407.287   
+                td.ajuste-border-tabla.txt-p1 5
+                td.ajuste-border-tabla.text-right.txt-p1 $1.431.210,68
+                td.ajuste-border-tabla.text-right.txt-p1 $47.448 
+                td.ajuste-border-tabla.text-right.txt-p1 $1.383.762,84
+                td.text-right.txt-p1 $1.407.287   
  
               tr.bg-color-white
-                td.ajuste-border-tabla.text-center 6
-                td.ajuste-border-tabla.text-right $1.431.210,68
-                td.ajuste-border-tabla.text-right $23.924 
-                td.ajuste-border-tabla.text-right $1.407.286,80
-                td.text-right -
+                td.ajuste-border-tabla.txt-p1 6
+                td.ajuste-border-tabla.text-right.txt-p1 $1.431.210,68
+                td.ajuste-border-tabla.text-right.txt-p1 $23.924 
+                td.ajuste-border-tabla.text-right.txt-p1 $1.407.286,80
+                td.text-right.txt-p1 -
               tr.bg-color-18
-                td.ajuste-border-tabla.text-center.text-bold TOTAL
-                td.ajuste-border-tabla.text-right $12.655.646,15
-                td.ajuste-border-tabla.text-right $655.646 
-                td.ajuste-border-tabla.text-right $12.000.000,00
-                td.text-right -
+                td.ajuste-border-tabla.txt-p1.text-bold TOTAL
+                td.ajuste-border-tabla.text-right.txt-p1 $12.655.646,15
+                td.ajuste-border-tabla.text-right.txt-p1 $655.646 
+                td.ajuste-border-tabla.text-right.txt-p1 $12.000.000,00
+                td.text-right.txt-p1 -
    
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right")
@@ -1035,7 +1045,7 @@
               p.mb-0 El VPN es una alternativa de inversión utilizada frecuentemente para medir el desempeño de la inversión. Para su aplicación se tiene en cuenta la siguiente fórmula:
 
             .titulo-sexto.color-acento-contenido
-              h5 Figura 15.   
+              h5 Figura 17.   
               span Fórmula del Valor Presente Neto (VPN)
             .row.justify-content-center.mb-3
               .col-lg-10
@@ -1043,14 +1053,14 @@
                   img(src="@/assets/curso/tema1/45-1.svg", data-aos="zoom-in" alt="Expresión matemática del Valor Presente Neto que incluye el desembolso inicial negativo y la suma de flujos netos de efectivo futuros descontados a una tasa de oportunidad, representados como VPN=-P+FNE1(1+TO)^1+FNE2(1+TO)^2+⋯+FNEn(1+TO)^n")
             .row
               .col-lg-6.mb-3.mb-lg-0
-                p.mb-0 P: inversión inicial
-                p.mb-0 FNE: flujos netos de efectivo
+                p.mb-0 P: inversión inicial.
+                p.mb-0 FNE: flujos netos de efectivo.
                 p TO: tasa de oportunidad del inversionista.
               .col-lg-6.mb-3.mb-lg-0
                 p.mb-0 Interpretación:
-                p.mb-0 VPN < cero “0” = No es viable (pérdida)
-                p.mb-0 VPN > cero “0”  = Es viable (Ganancia)
-                p.mb-0 VPN = cero “0”  = Indiferente 
+                p.mb-0 VPN < cero “0” = no es viable (pérdida).
+                p.mb-0 VPN > cero “0”  = es viable (Ganancia).
+                p.mb-0 VPN = cero “0”  = indiferente.
         
         .row.mb-5
           .col-lg-5.mb-5.mb-lg-0.d-none.d-md-block
@@ -1071,23 +1081,23 @@
                   table
                     thead
                       tr
-                        th.ajuste-border-tabla.bg-color-6.text-center Concepto 
-                        th.bg-color-6.text-center  Valor
+                        th.ajuste-border-tabla.bg-color-6.txt-p1 Concepto 
+                        th.bg-color-6.txt-p1  Valor
                       tr.bg-color-18
-                        td.ajuste-border-tabla.text-center Inversión
-                        td.text-right $12.000.000
+                        td.ajuste-border-tabla.txt-p1 Inversión
+                        td.text-right.txt-p1 $12.000.000
                       tr.bg-color-white
-                        td.ajuste-border-tabla.text-center Flujo Año 1
-                        td.text-right $2.500.000
+                        td.ajuste-border-tabla.txt-p1 Flujo Año 1
+                        td.text-right.txt-p1 $2.500.000
                       tr.bg-color-18
-                        td.ajuste-border-tabla.text-center Flujo Año 2
-                        td.text-right $3.600.000
+                        td.ajuste-border-tabla.txt-p1 Flujo Año 2
+                        td.text-right.txt-p1 $3.600.000
                       tr.bg-color-white
-                        td.ajuste-border-tabla.text-center Flujo Año 3
-                        td.text-right $4.200.000
+                        td.ajuste-border-tabla.txt-p1 Flujo Año 3
+                        td.text-right.txt-p1 $4.200.000
                       tr.bg-color-18
-                        td.ajuste-border-tabla.text-center Flujo Año 4
-                        td.text-right $5.000.000
+                        td.ajuste-border-tabla.txt-p1 Flujo Año 4
+                        td.text-right.txt-p1 $5.000.000
 
             .cajon.color-acento-contenido.p-4.mb-4
               p.mb-0 <b>NOTA:</b> determinar la viabilidad del proyecto, aplicando la fórmula de VPN o VNA.
@@ -1105,7 +1115,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
               .titulo-sexto.color-acento-contenido
-                h5 Figura 16.
+                h5 Figura 18.
                 span Ventana de argumentos de la función VNA en Excel
               figure
                 img(src="@/assets/curso/tema1/47.png", data-aos="zoom-in", alt="Ventana de Excel para ingresar argumentos de la función financiera VNA, con campos para Tasa, Valor1 y Valor2. Incluye una descripción sobre el cálculo del valor neto presente de una inversión y botones para aceptar o cancelar.")
@@ -1125,7 +1135,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto Tasa Interna de Retorno (TIR)
 
-    p.mb-4(data-aos="fade-down") La tasa interna de retorno (TIR), es un indicador de rentabilidad que se utiliza en su mayoría para evaluar proyectos de inversión. Su cálculo se basa en los flujos de caja esperados del proyecto en determinados tiempos.
+    p.mb-4(data-aos="fade-down") La tasa interna de retorno (TIR) es un indicador de rentabilidad que se utiliza en su mayoría para evaluar proyectos de inversión. Su cálculo se basa en los flujos de caja esperados del proyecto en determinados tiempos.
 
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0
@@ -1142,16 +1152,16 @@
         p La fórmula aplicable en este caso es:
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 17.
+          h5 Figura 19.
           span Fórmula de la Tasa Interna de Retorno (TIR)
         .row.justify-content-center.mb-3
           .col-lg-10
             figure
               img(src="@/assets/curso/tema1/49.svg", data-aos="zoom-in" alt="Ecuación que representa la Tasa Interna de Retorno, donde la inversión inicial se iguala a la suma de los flujos netos de efectivo descontados por la TIR en distintos periodos, expresados como Inversion=FNE1(1+TIR)^1+FNE2(1+TIR)^2+⋯+FNEn(1+TIR)^n")
         p.mb-0 Interpretación:
-        p.mb-0 Tasa de descuento > TIR = No es viable (pérdida)
-        p.mb-0 Tasa de descuento < TIR = Es viable (Ganancia)
-        p.mb-0 Tasa de descuento = TIR = Indiferente 
+        p.mb-0 Tasa de descuento > TIR = No es viable (pérdida).
+        p.mb-0 Tasa de descuento < TIR = Es viable (Ganancia).
+        p.mb-0 Tasa de descuento = TIR = Indiferente.
 
     .row.align-items-start.mb-3
       .col-md-auto.mb-3.mb-lg-0
@@ -1168,58 +1178,61 @@
       table
         thead
           tr
-            th.ajuste-border-tabla.bg-color-6.text-center Concepto 
-            th.ajuste-border-tabla.bg-color-6.text-center 0
-            th.ajuste-border-tabla.bg-color-6.text-center 1
-            th.ajuste-border-tabla.bg-color-6.text-center 2
-            th.ajuste-border-tabla.bg-color-6.text-center 3
-            th.ajuste-border-tabla.bg-color-6.text-center 4
-            th.ajuste-border-tabla.bg-color-6.text-center 5
-            th.ajuste-border-tabla.bg-color-6.text-center 6
-            th.ajuste-border-tabla.bg-color-6.text-center Indicador
-            th.bg-color-6.text-center Valor
+            th.ajuste-border-tabla.bg-color-6.txt-p1 Concepto 
+            th.ajuste-border-tabla.bg-color-6.txt-p1 0
+            th.ajuste-border-tabla.bg-color-6.txt-p1 1
+            th.ajuste-border-tabla.bg-color-6.txt-p1 2
+            th.ajuste-border-tabla.bg-color-6.txt-p1 3
+            th.ajuste-border-tabla.bg-color-6.txt-p1 4
+            th.ajuste-border-tabla.bg-color-6.txt-p1 5
+            th.ajuste-border-tabla.bg-color-6.txt-p1 6
+            th.ajuste-border-tabla.bg-color-6.txt-p1 Indicador
+            th.bg-color-6.txt-p1 Valor
         tbody
           tr.bg-color-18
-            td.ajuste-border-tabla.text-center.text-bold Inversión
-            td.ajuste-border-tabla.text-right $20.000.000
-            td.ajuste-border-tabla.text-right $4.000.000 
-            td.ajuste-border-tabla.text-right $6.000.000 
-            td.ajuste-border-tabla.text-right $7.200.000 
-            td.ajuste-border-tabla.text-right $8.000.000 
-            td.ajuste-border-tabla.text-right $9.200.000 
-            td.ajuste-border-tabla.text-right $13.000.000 
-            td.ajuste-border-tabla.text-center.text-bold VAN  
-            td.text-right $2.738.265 
+            td.ajuste-border-tabla.txt-p1.text-bold.txt-p1 Inversión
+            td.ajuste-border-tabla.text-right.txt-p1 $20.000.000
+            td.ajuste-border-tabla.text-right.txt-p1 $4.000.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $6.000.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $7.200.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $8.000.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $9.200.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $13.000.000 
+            td.ajuste-border-tabla.txt-p1.text-bold VAN  
+            td.text-right.txt-p1 $2.738.265 
           tr.bg-color-white
-            td.ajuste-border-tabla.text-center.text-bold Costos
-            td.ajuste-border-tabla.text-right -
-            td.ajuste-border-tabla.text-right $800.000 
-            td.ajuste-border-tabla.text-right $1.200.000 
-            td.ajuste-border-tabla.text-right $1.440.000  
-            td.ajuste-border-tabla.text-right $1.600.000  
-            td.ajuste-border-tabla.text-right $1.840.000 
-            td.ajuste-border-tabla.text-right $2.600.000  
-            td.ajuste-border-tabla.text-center.text-bold TIR   
-            td.text-center 18 % 
+            td.ajuste-border-tabla.txt-p1.text-bold Costos
+            td.ajuste-border-tabla.text-right.txt-p1 -
+            td.ajuste-border-tabla.text-right.txt-p1 $800.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $1.200.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $1.440.000  
+            td.ajuste-border-tabla.text-right.txt-p1 $1.600.000  
+            td.ajuste-border-tabla.text-right.txt-p1 $1.840.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $2.600.000  
+            td.ajuste-border-tabla.txt-p1.text-bold TIR   
+            td.txt-p1 18 % 
           tr.bg-color-18
-            td.ajuste-border-tabla.text-center.text-bold Flujo neto del proyecto
-            td.ajuste-border-tabla.text-center -$20.000.000 
-            td.ajuste-border-tabla.text-right $3.200.000 
-            td.ajuste-border-tabla.text-right $4.800.000  
-            td.ajuste-border-tabla.text-right $5.760.000   
-            td.ajuste-border-tabla.text-right $6.400.000   
-            td.ajuste-border-tabla.text-right $7.360.000  
-            td.ajuste-border-tabla.text-right $10.400.000   
-            td.ajuste-border-tabla.text-right -   
-            td.text-right -
+            td.ajuste-border-tabla.txt-p1.text-bold Flujo neto del proyecto
+            td.ajuste-border-tabla.txt-p1 -$20.000.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $3.200.000 
+            td.ajuste-border-tabla.text-right.txt-p1 $4.800.000  
+            td.ajuste-border-tabla.text-right.txt-p1 $5.760.000   
+            td.ajuste-border-tabla.text-right.txt-p1 $6.400.000   
+            td.ajuste-border-tabla.text-right.txt-p1 $7.360.000  
+            td.ajuste-border-tabla.text-right.txt-p1 $10.400.000   
+            td.ajuste-border-tabla.text-right.txt-p1 -   
+            td.text-right.txt-p1 -
                 
-    p.mb-4(data-aos="fade-down") Para hallar el Valor Presente Neto (VPN o VNA) y la Tasa Interna de Retorno (TIR) se realizará a través de Microsoft Excel, para ello es importante relacionar la información con el fin de desarrollar las fórmulas básicas:
+    p.mb-4(data-aos="fade-down") Para hallar el Valor Presente Neto (VPN o VNA) y la Tasa Interna de Retorno (TIR), se realizará a través de Microsoft Excel; para ello es importante relacionar la información con el fin de desarrollar las fórmulas básicas:
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 20.
+                span Ventana de argumentos de la función VNA en Excel
               figure
                 img(src="@/assets/curso/tema1/50.png", alt="Ventana de Excel con la función financiera VNA aplicada, que contiene valores ingresados en los campos Tasa y Valor1.")
             .col-lg-7.order-1.mb-3.mb-lg-0
@@ -1234,6 +1247,9 @@
 
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-2
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 21.
+                span Ventana de argumentos de la función TIR en Excel
               figure
                 img(src="@/assets/curso/tema1/51.png", alt=" Ventana de Excel para ingresar argumentos de la función financiera TIR, con campos para Valores y Estimar. Incluye una serie de flujos de efectivo y muestra el resultado calculado de la tasa interna de retorno, junto con botones para aceptar o cancelar.")
             .col-lg-6.mb-3.mb-lg-0.order-1.mb-3.mb-lg-0
@@ -1260,16 +1276,16 @@
                 table
                   thead
                     tr
-                      th.ajuste-border-tabla.bg-color-6-1.text-center  Indicador  
-                      th.bg-color-6-1.text-center  Valor 
+                      th.ajuste-border-tabla.bg-color-6-1.txt-p1  Indicador  
+                      th.bg-color-6-1.txt-p1  Valor 
 
                   tbody
                     tr.bg-color-white
-                      td.ajuste-border-tabla.text-center.text-bold  VAN  
-                      td.text-center.text-bold $2.738.264,85
+                      td.ajuste-border-tabla.txt-p1.text-bold  VAN  
+                      td.txt-p1.text-bold $2.738.264,85
                     tr.bg-color-18
-                      td.ajuste-border-tabla.text-center.text-bold  TIR   
-                      td.text-center.text-bold 18 %
+                      td.ajuste-border-tabla.txt-p1.text-bold  TIR   
+                      td.txt-p1.text-bold 18 %
       .col-lg-6(data-aos="fade-left")
         P.mb-4 De acuerdo con lo anterior, se observa que el proyecto es viable, teniendo en cuenta que se recupera la inversión, además de generar una ganancia. La TIR (18 %) es mayor que la tasa de descuento (14 %).
         P Para ampliar esta información, usted deberá ingresar a la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo.
