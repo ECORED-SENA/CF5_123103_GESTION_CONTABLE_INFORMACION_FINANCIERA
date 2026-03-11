@@ -292,4 +292,10 @@ table thead th
     text-align: left !important
 
 .tabla-a table
-  min-width: 640px
+  min-width: 500px
+  table-layout: auto !important
+  @media screen and (max-width: $bp-max-md)
+    min-width: 100%
+
+.tabla-a td
+  white-space: nowrap

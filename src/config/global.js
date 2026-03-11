@@ -148,7 +148,7 @@ export default {
     {
       termino: 'Inversión',
       significado:
-        'Es la asignación de recursos en el presente con el fin de obtener unos beneficios, en el futuro (Vélez, 1998).',
+        'Es la asignación de recursos en el presente con el fin de obtener unos beneficios en el futuro (Vélez, 1998).',
     },
     {
       termino: 'Matemáticas financieras',
@@ -344,6 +344,12 @@ export default {
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

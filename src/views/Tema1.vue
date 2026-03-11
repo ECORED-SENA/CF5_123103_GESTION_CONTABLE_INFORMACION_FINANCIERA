@@ -1072,8 +1072,8 @@
                 img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
               .col-md
                 p <b>Ejemplo:</b>  se desea realizar una inversión de $12.000.000 durante 4 años, a una tasa de descuento del 15 % anual. Los beneficios (flujos) recibidos por cada año son los siguientes:
-            .row.justify-content-center.mb-3
-              .col-lg-9
+            .row.mb-3
+              .col-12
                 .titulo-sexto.color-acento-contenido
                     h5 Tabla 8.
                     span Flujos de caja proyectados para evaluar una inversión de $12.000.000
@@ -1169,59 +1169,60 @@
       .col-md
         p <b>Ejemplo:</b>  Iván Méndez desea realizar una inversión de $20.000.000, el proyecto le ofrece los siguientes beneficios durante 6 años, de igual forma genera los presentes gastos:
 
-    
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Tabla 9.
-        span Evaluación financiera de proyecto con flujo de caja proyectado y cálculo de VAN y TIR
+    .row
+      .col-12
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Tabla 9.
+            span Evaluación financiera de proyecto con flujo de caja proyectado y cálculo de VAN y TIR
 
-    .tabla-a.color-acento-botones.mb-3(data-aos="fade-left")
-      table
-        thead
-          tr
-            th.ajuste-border-tabla.bg-color-6.txt-p1 Concepto 
-            th.ajuste-border-tabla.bg-color-6.txt-p1 0
-            th.ajuste-border-tabla.bg-color-6.txt-p1 1
-            th.ajuste-border-tabla.bg-color-6.txt-p1 2
-            th.ajuste-border-tabla.bg-color-6.txt-p1 3
-            th.ajuste-border-tabla.bg-color-6.txt-p1 4
-            th.ajuste-border-tabla.bg-color-6.txt-p1 5
-            th.ajuste-border-tabla.bg-color-6.txt-p1 6
-            th.ajuste-border-tabla.bg-color-6.txt-p1 Indicador
-            th.bg-color-6.txt-p1 Valor
-        tbody
-          tr.bg-color-18
-            td.ajuste-border-tabla.txt-p1.text-bold.txt-p1 Inversión
-            td.ajuste-border-tabla.text-right.txt-p1 $20.000.000
-            td.ajuste-border-tabla.text-right.txt-p1 $4.000.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $6.000.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $7.200.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $8.000.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $9.200.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $13.000.000 
-            td.ajuste-border-tabla.txt-p1.text-bold VAN  
-            td.text-right.txt-p1 $2.738.265 
-          tr.bg-color-white
-            td.ajuste-border-tabla.txt-p1.text-bold Costos
-            td.ajuste-border-tabla.text-right.txt-p1 -
-            td.ajuste-border-tabla.text-right.txt-p1 $800.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $1.200.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $1.440.000  
-            td.ajuste-border-tabla.text-right.txt-p1 $1.600.000  
-            td.ajuste-border-tabla.text-right.txt-p1 $1.840.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $2.600.000  
-            td.ajuste-border-tabla.txt-p1.text-bold TIR   
-            td.txt-p1 18 % 
-          tr.bg-color-18
-            td.ajuste-border-tabla.txt-p1.text-bold Flujo neto del proyecto
-            td.ajuste-border-tabla.txt-p1 -$20.000.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $3.200.000 
-            td.ajuste-border-tabla.text-right.txt-p1 $4.800.000  
-            td.ajuste-border-tabla.text-right.txt-p1 $5.760.000   
-            td.ajuste-border-tabla.text-right.txt-p1 $6.400.000   
-            td.ajuste-border-tabla.text-right.txt-p1 $7.360.000  
-            td.ajuste-border-tabla.text-right.txt-p1 $10.400.000   
-            td.ajuste-border-tabla.text-right.txt-p1 -   
-            td.text-right.txt-p1 -
+        .tabla-a.color-acento-botones.mb-3(data-aos="fade-left")
+          table
+            thead
+              tr
+                th.ajuste-border-tabla.bg-color-6.txt-p1 Concepto 
+                th.ajuste-border-tabla.bg-color-6.txt-p1 0
+                th.ajuste-border-tabla.bg-color-6.txt-p1 1
+                th.ajuste-border-tabla.bg-color-6.txt-p1 2
+                th.ajuste-border-tabla.bg-color-6.txt-p1 3
+                th.ajuste-border-tabla.bg-color-6.txt-p1 4
+                th.ajuste-border-tabla.bg-color-6.txt-p1 5
+                th.ajuste-border-tabla.bg-color-6.txt-p1 6
+                th.ajuste-border-tabla.bg-color-6.txt-p1 Indicador
+                th.bg-color-6.txt-p1 Valor
+            tbody
+              tr.bg-color-18
+                td.ajuste-border-tabla.txt-p1.text-bold.txt-p1 Inversión
+                td.ajuste-border-tabla.txt-p1 $20.000.000
+                td.ajuste-border-tabla.txt-p1 $4.000.000 
+                td.ajuste-border-tabla.txt-p1 $6.000.000 
+                td.ajuste-border-tabla.txt-p1 $7.200.000 
+                td.ajuste-border-tabla.txt-p1 $8.000.000 
+                td.ajuste-border-tabla.txt-p1 $9.200.000 
+                td.ajuste-border-tabla.txt-p1 $13.000.000 
+                td.ajuste-border-tabla.txt-p1.text-bold VAN  
+                td.text-right.txt-p1 $2.738.265 
+              tr.bg-color-white
+                td.ajuste-border-tabla.txt-p1.text-bold Costos
+                td.ajuste-border-tabla.text-right.txt-p1 -
+                td.ajuste-border-tabla.text-right.txt-p1 $800.000 
+                td.ajuste-border-tabla.text-right.txt-p1 $1.200.000 
+                td.ajuste-border-tabla.text-right.txt-p1 $1.440.000  
+                td.ajuste-border-tabla.text-right.txt-p1 $1.600.000  
+                td.ajuste-border-tabla.text-right.txt-p1 $1.840.000 
+                td.ajuste-border-tabla.text-right.txt-p1 $2.600.000  
+                td.ajuste-border-tabla.txt-p1.text-bold TIR   
+                td.txt-p1 18 % 
+              tr.bg-color-18
+                td.ajuste-border-tabla.txt-p1.text-bold Flujo neto del proyecto
+                td.ajuste-border-tabla.txt-p1 -$20.000.000 
+                td.ajuste-border-tabla.text-right.txt-p1 $3.200.000 
+                td.ajuste-border-tabla.text-right.txt-p1 $4.800.000  
+                td.ajuste-border-tabla.text-right.txt-p1 $5.760.000   
+                td.ajuste-border-tabla.text-right.txt-p1 $6.400.000   
+                td.ajuste-border-tabla.text-right.txt-p1 $7.360.000  
+                td.ajuste-border-tabla.text-right.txt-p1 $10.400.000   
+                td.ajuste-border-tabla.text-right.txt-p1 -   
+                td.text-right.txt-p1 -
                 
     p.mb-4(data-aos="fade-down") Para hallar el Valor Presente Neto (VPN o VNA) y la Tasa Interna de Retorno (TIR), se realizará a través de Microsoft Excel; para ello es importante relacionar la información con el fin de desarrollar las fórmulas básicas:
 
